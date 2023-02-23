@@ -34,6 +34,7 @@ public static class ContractMapping
         {
             Id = new Guid(),
             Title = movie.Title,
+            Slug = movie.Slug,
             YearOfRelease = movie.YearOfRelease,
             Genres = movie.Genres
         };
